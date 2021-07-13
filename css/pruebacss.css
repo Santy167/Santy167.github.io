@@ -1,0 +1,374 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: content-box; }
+
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-men-s-textured-men-s-shoes-banner-poster-background-image_189947.jpg); }
+
+/*este es mi header */
+header {
+  width: 100%;
+  overflow: hidden;
+  background-color: #0b0914a8;
+  margin-bottom: 20px; }
+
+.wrapper {
+  width: 90%;
+  max-width: 2000px;
+  margin: auto;
+  overflow: hidden; }
+
+header .sub-logo {
+  padding: 10px;
+  width: 130px;
+  line-height: 100px;
+  border-radius: 50%;
+  float: left; }
+
+header .iconos {
+  float: right;
+  line-height: 150px; }
+
+header .iconos a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px; }
+
+header .iconos a:hover {
+  background-color: #46ccce;
+  border-radius: 50px; }
+
+header nav {
+  float: left;
+  line-height: 150px;
+  padding-left: 420px; }
+
+header nav .lista-nav {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px; }
+
+header nav .lista-nav:hover {
+  background-color: #f159cb;
+  border-radius: 50px; }
+
+/* este es mi main Pagina Principal */
+.Catalogo {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px; }
+
+.Productos {
+  font-weight: bold;
+  font-size: 110%;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center; }
+
+.Productos .nombre-producto {
+  font-family: 'Noto Sans', sans-serif !important;
+  text-decoration: none; }
+
+h1 {
+  margin-top: 60px; }
+
+.sorteo {
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  color: #4848ff; }
+
+.sorteo:hover {
+  color: turquoise; }
+
+.Jordan {
+  color: white; }
+
+.Botines {
+  color: #ffffff; }
+
+.casualDeportivo {
+  color: #ffffff; }
+
+.Entrenamiento {
+  color: #ffffff; }
+
+.imagen {
+  text-align: center;
+  text-transform: none; }
+
+.logotipo {
+  width: 350px;
+  height: 300px; }
+
+.Ofertas {
+  margin-bottom: 40px;
+  text-align: center; }
+
+.OfertasDelDia {
+  font-family: 'Noto Sans', sans-serif;
+  color: #b810af;
+  text-decoration: none; }
+
+.OfertasDelDia:hover {
+  color: turquoise; }
+
+/* este es mi Footer */
+.footer {
+  background-color: rgba(245, 245, 220, 0.219);
+  height: 150px; }
+
+.contactos-flex {
+  display: inline-flex;
+  width: 400px;
+  justify-content: flex-end; }
+
+.contactos-flex img {
+  height: 40px;
+  width: 40px;
+  padding-top: 70px; }
+
+.contac {
+  align-items: center;
+  padding-top: 75px;
+  padding-left: 7px;
+  font-size: 20px;
+  font-weight: 500; }
+
+.Facebook:hover {
+  color: #084fe7; }
+
+.Instagram:hover {
+  color: #bb36a9; }
+
+.Whatsapp:hover {
+  color: #00bb2d; }
+
+.Email:hover {
+  color: #c41d1d; }
+
+/*Este es mi Pagina Jordan*/
+.fondo {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-men-s-textured-men-s-shoes-banner-poster-background-image_189947.jpg); }
+
+.colores {
+  color: white; }
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: aqua;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.centrado-tabla {
+  display: flex;
+  justify-content: center; }
+
+.centrado-text {
+  text-align: start;
+  padding: 20px; }
+
+.jordan {
+  text-align: center;
+  color: rgba(34, 34, 238, 0.925); }
+
+/* Tabla de la Pagina jordan*/
+.tabla {
+  display: grid; }
+
+.aling {
+  display: flex;
+  justify-content: center; }
+
+.TablaJordan {
+  background-color: #3a0000;
+  list-style: none; }
+
+.jordanIcon {
+  width: 50px;
+  height: 50px; }
+
+.flex-container {
+  display: flex;
+  justify-content: center; }
+
+.margin {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+#flex {
+  display: flex;
+  justify-content: center;
+  color: #be6512; }
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  color: white; }
+
+.Precio {
+  color: #06ff06;
+  list-style: none; }
+
+.noSotck {
+  color: #ff3535; }
+
+th {
+  color: white; }
+
+.color-num {
+  color: white;
+  list-style: none; }
+
+/* cambios de Agregar al carro*/
+.ali-cen {
+  display: flex;
+  justify-content: center; }
+
+.carro {
+  margin: 40px;
+  color: wheat;
+  border: #200c0c;
+  transition: width 2s;
+  background-color: black; }
+
+.carro:hover {
+  background-color: #33a6c9; }
+
+/* este es mi main de Sorteos*/
+.pie-color {
+  background-color: black; }
+
+.contactanos-color {
+  text-decoration: none;
+  color: white; }
+
+.datos {
+  width: 150px;
+  height: 20px;
+  transition: all 1s; }
+
+.terminos {
+  color: aqua; }
+
+.datos:focus {
+  width: 200px;
+  font-size: 20px; }
+
+.fondo-sorteo {
+  background-image: url(https://mott.pe/noticias/wp-content/uploads/2018/01/Nike-presenta-nuevas-zapatillas-que-parecen-un-control-de-PlayStation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.DNI-cent {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.Talla-cent {
+  margin-bottom: 30px; }
+
+label {
+  color: #00ff62; }
+
+.condicion {
+  color: #ff00c8;
+  padding-right: 10px;
+  margin-top: 10px; }
+
+.nombre-title {
+  color: #5ff07e;
+  margin: 10px; }
+
+.genero {
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.title-sorteo {
+  color: #5ff07e;
+  margin: 40px;
+  text-align: center;
+  font-size: 40px; }
+
+.footer-sorteos {
+  background-color: rgba(245, 245, 220, 0.219);
+  height: 150px;
+  margin-top: 100px; }
+
+.gracias {
+  margin-top: 40px;
+  font-size: 40px;
+  text-align: center;
+  color: aqua; }
+
+/*esto es para mi centrado de anotacion para el sorteo*/
+.centrado-sorteo {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px; }
+
+.centrado-form {
+  text-align: center;
+  margin: 20px; }
+
+/*este es mi contenido sobre nosotros*/
+.title-nos {
+  color: #7fdf32c9;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.center-ubi {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.center-text {
+  width: 100%;
+  text-align: center; }
+
+.texto-nos {
+  display: inline-block;
+  width: 600px;
+  margin-bottom: 20px;
+  color: white; }
+
+/*Mi Pagina de ofertas*/
+.ofertas-titulo {
+  text-align: center;
+  color: white; }
+
+.footer-ofertas {
+  background-color: rgba(245, 245, 220, 0.219);
+  height: 150px;
+  margin-top: 430px; }
+
+/*Es para sacar la imagen y no poner y repetir la clase */
+/* personalizando mi carrousel*/
+.carousel-item {
+  width: 400px; }
+
+img .d-block .w-100 {
+  object-fit: cover;
+  position: relative;
+  bottom: 15px; }
+
+.tamaño {
+  color: #17df17;
+  font-size: 30px; }
+
+.carousel-inner {
+  display: flex;
+  width: 1700px;
+  justify-content: space-around; }
